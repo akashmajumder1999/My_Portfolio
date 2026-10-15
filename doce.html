@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widthdevice-width=, initial-scale=1.0">
+    <title>nmap commands guide</title>
+</head>
+<body>
+    <h1>namp cheat sheet(documentations)</h1>
+    <p>below are some basic namp commands for network scanning and reconnaissance:</p>
+
+    <nav>
+        <ul>
+           <li><a href="#basic">1. basic scan</a></li>
+           <li><a href="#OS">2. OS detection</a></li>
+        </ul>   
+    </nav>
+    <hr>
+
+    <div id="Os">
+        <h2>basic scan</h2>
+        <p>use the following command to scan specific ip addres or domain.</p>
+        <pre>
+            <code>nmap: 192.168.1.1</code>
+        </pre>
+    </div>
+
+    <div>
+        <h2>OS detection</h2>
+        <p>use the <code>-0</code> flag to the detect the oparating system running on the terget maching.</p>
+        <pre>
+            <code>sudo nmap -0 terget-ip</code>
+        </pre>
+
+    </div>
+</body>
+</html>
